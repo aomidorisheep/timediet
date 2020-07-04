@@ -1,0 +1,60 @@
+header {
+    background-color: #59BF25;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    margin: -10px -8px;
+
+}
+
+ul {
+    list-style: none;
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 21px;
+
+
+}
+
+li {
+    padding: 20px 0;
+}
+
+.form-control {
+    width: 270px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 15px;
+    border: solid 0px;
+}
+
+body {
+    background-color: #ECEBE7;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.login {
+    background-color: #FF7701;
+    color: white;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 20px auto;
+    /* margin-left: -5px; */
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+}
+
+.login {
+    color: white;
+}

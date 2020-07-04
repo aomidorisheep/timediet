@@ -1,0 +1,65 @@
+body {
+    background-color: #53AD62;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 10px;
+}
+
+.main {
+    color: white;
+    margin: 10px 50px;
+    font-size: 18px;
+}
+
+.bubble {
+    text-align: center;
+}
+
+.bubble img {
+    width: 85%;
+}
+
+.login {
+    text-align: center;
+
+}
+
+.login #registration {
+    display: inline-block;
+    background-color: #ff7701;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+
+}
+
+.login #login {
+    display: inline-block;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.registry {
+    color: white;
+    ;
+}
+
+.login {
+    color: black;
+}

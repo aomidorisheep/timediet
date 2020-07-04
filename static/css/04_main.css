@@ -1,0 +1,149 @@
+* {
+    float: none;
+    position: static;
+}
+
+header {
+    background-color: #59BF25;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    margin: -10px -8px;
+
+}
+
+
+body {
+    background-color: #ECEBE7;
+}
+
+.input {
+    background-color: #FF7701;
+    color: white;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 25px;
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+
+    text-align: center;
+    margin: 10px 10%;
+}
+
+.form-control {
+    width: 150px;
+    height: 87px;
+    background: rgb(255, 255, 255);
+    margin: auto 0;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 40px;
+    border: solid 0px;
+
+}
+
+.minutes h2 {
+    padding-left: 5px;
+    padding-top: 25px;
+}
+
+.img1 {
+    position: relative;
+    width: 70%;
+    margin-left: 17%;
+}
+
+.pace h4 {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 20%;
+
+}
+
+.pace span {
+    font-size: 40px;
+    color: #FF7701;
+}
+
+h5 {
+    font-size: 25px;
+    text-align: center;
+    margin: -5% 15%;
+    color: #59BF25;
+}
+
+
+
+.form-control2 {
+    width: 160px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 25px;
+    font-size: 45px;
+    border: solid 0px;
+
+
+}
+
+.to {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.day .hours {
+    margin: 0px;
+}
+
+h6 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.box {
+    margin: 0px auto;
+}
+
+.logout {
+    background-color: #59BF25;
+    color: white;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 25px;
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mypage2 {
+    color: black;
+}
+
+.logout {
+    color: white;
+}
+
+.img2 {
+    background-image: url(../格言.png);
+    background-repeat: no-repeat;
+    /* 画像の繰り返しを指定  */
+    background-position: center center;
+    width: auto;
+
+}

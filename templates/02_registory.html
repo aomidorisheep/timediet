@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>むだろぐ</title>
+    <link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href="/static/css/02_registory.css">
+
+</head>
+
+<body>
+    <header>新規登録</header>
+    <main>
+        <form action="/registry" method="post">
+            <ul>
+                <li><label for="name"><span class="label label-danger">必須</span> ユーザー名</label>
+                    <input type="text" name="name" class="form-control" placeholder="例：ムダムダ" autofocus required></li>
+                <li><label for="name"><span class="label label-danger">必須</span>パスワード</label>
+                    <input type="password" name="password" class="form-control" placeholder="例：12345678" autofocus
+                        required></li>
+                <li><label for="name"><span class="label label-danger">必須</span> 年齢</label>
+                    <input type="number" name="age" class="form-control" placeholder="例：20" autofocus required></li>
+                <li><label for="name"><span class="label label-danger large">必須</span> 日頃やめたいなと思ってる習慣を一つ入力してください</label>
+                    <input type="text" name="habit" class="form-control" placeholder="例：tiwtter" autofocus required>
+                </li>
+                <li><label for="name"><span class="label label-danger">必須</span> 日頃やめたいなと思っている習慣を毎日何分していますか？</label>
+                    <input type="number" name="time" class="form-control" placeholder="60" autofocus required>
+                </li>
+                <input type="submit" name="save" class="value" value="登録">
+            </ul>
+        </form>
+    </main>
+</body>
+
+</html>

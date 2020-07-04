@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>むだろぐ</title>
+    <link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href="/static/css/03_login.css">
+
+</head>
+
+<body>
+    <header>ログイン</header>
+    <form action="/login" method="post">
+        <ul>
+            <li><label for="name"> ユーザー名</label>
+                <input type="text" name="name" class="form-control" placeholder="例：F.ムダ子" autofocus required></li>
+            <li><label for="name">パスワード</label>
+                <input type="password" name="password" class="form-control" placeholder="例：12345" autofocus required>
+            </li>
+            <input type="submit" value="ログイン" class="login">
+        </ul>
+    </form>
+
+</body>
+
+</html>

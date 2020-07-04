@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>むだろぐ</title>
+    <link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href="/static/css/08_upload.css">
+
+</head>
+
+<body>
+
+    <header>本日の成果</header>
+    <form action="/mypage3" method="post">
+        <ul>
+            <li><label for="name">今日{{name[0]}}さんが<br>" {{habit[0]}} "の誘惑から<br>耐えた時間を教えてください</label>
+                <input type="number" name="name" class="form-control" placeholder="単位：分" autofocus required>
+            </li>
+
+            <input type="submit" value="送信" class="login">
+        </ul>
+    </form>
+
+</body>
+
+</html>

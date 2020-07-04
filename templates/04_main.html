@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>むだろぐ</title>
+    <link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href="/static/css/04_main.css">
+
+</head>
+
+<body>
+    <header>MYむだろぐ</header>
+    <main>
+        <p class="input"><a href="/input" class="input">今日の成果入力</a></p>
+        <h1> {{name[0]}}さんは、これまで<br>{{habit[0]}}の誘惑から</h1>
+        <div class="minutes" style="display: inline-flex; margin: 0 20%;">
+            <input type="number" class="form-control" placeholder="6000" value="{{total_time[0]}}">
+            <h2>分</h2>
+
+        </div>
+        <img src="/static/img/耐えることができています.png" class="img1" alt="80sai">
+
+        <div class="pace">
+            <h4>このペースで行くと{{name[0]}}さんが<br><span>80歳</span>に<br>なるまでに・・・</h4>
+        </div>
+
+        <p class="box">
+
+
+
+            <div class="day" style="display: inline-flex; margin-left: 15%;">
+                <input type="number" class="form-control2" placeholder="100" value="{{day}}">
+                <h6>日</h6>
+            </div>
+
+            <h6 class="to">と</h6>
+
+            <div class="hours" style="display: inline-flex; margin-left: 15%;">
+                <input type="number" class="form-control2" placeholder="00" value="{{hour}}">
+                <h6>時間</h6>
+            </div>
+        </p>
+        <h5>有効活用できます！</h5>
+
+        <p class="input"><a href="/input" class="input">今日の成果入力</a></p>
+        <p class="logout"><a href="/logout" class="logout">ログアウト</a></p>
+
+        <img src="/static/img/格言.png" class="img2" alt="">
+
+
+
+
+    </main>
+
+</body>
+
+</html>

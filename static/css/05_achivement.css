@@ -1,0 +1,51 @@
+header {
+    background-color: #59BF25;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    margin: -10px -8px;
+
+}
+
+body {
+    background-color: #ECEBE7;
+}
+
+img {
+    background-image: url(../成果受付.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    padding-top: 20px;
+
+}
+
+.today {
+    background-color: #59BF25;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 25px;
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+
+}
+
+.mypage {
+    background-color: #FF7701;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 25px;
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

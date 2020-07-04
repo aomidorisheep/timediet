@@ -1,0 +1,70 @@
+header {
+    background-color: #59BF25;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 10px;
+    margin: -10px -8px;
+
+}
+
+body {
+    background-color: #ECEBE7;
+}
+
+.comment {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+    margin: auto 10%;
+}
+
+img {
+    background-image: url(/static/img/inu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px 10%;
+    width: 80%;
+    padding-top: 20px;
+
+
+}
+
+
+
+
+.login {
+    background-color: #FF7701;
+    color: white;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 25px;
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+}
+
+.toppage {
+    background-color: #59BF25;
+    color: white;
+    width: 297px;
+    padding: 15px 10px;
+    margin: 25px;
+    font-size: 20px;
+    border: solid 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.login {
+    color: white;
+}

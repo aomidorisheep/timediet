@@ -1,0 +1,62 @@
+header {
+    background-color: #53AD62;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    letter-spacing: 10px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(221, 221, 221);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+ul {
+    list-style: none;
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 21px;
+
+
+}
+
+li {
+    padding: 20px 0;
+}
+
+span {
+    background-color: red;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    display: none;
+}
+
+.form-control {
+    width: 270px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 15px;
+    border: solid 0px;
+}
+
+.value {
+    background-color: orange;
+    width: 200px;
+    padding: 5px 10px;
+    margin: 0 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: solid 0px;
+}
